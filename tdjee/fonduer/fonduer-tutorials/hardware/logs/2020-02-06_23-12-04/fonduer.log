@@ -1,0 +1,3 @@
+[2020-02-06 23:12:04,656][INFO] fonduer.meta:51 - Setting logging directory to: logs/2020-02-06_23-12-04
+[2020-02-06 23:12:04,759][INFO] fonduer.meta:135 - Connecting user:None to localhost:5432/stg_temp_max
+[2020-02-06 23:12:06,847][INFO] fonduer.meta:162 - Initializing the storage schema

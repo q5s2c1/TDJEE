@@ -1,0 +1,6 @@
+plac
+spacy
+pandas
+jieba
+ftfy
+validators

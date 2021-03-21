@@ -1,0 +1,7 @@
+[2020-02-24 20:20:32,240][INFO] fonduer.meta:51 - Setting logging directory to: logs/2020-02-24_20-20-32
+[2020-02-24 20:20:32,322][INFO] fonduer.meta:135 - Connecting user:None to localhost:5432/stg_temp_max
+[2020-02-24 20:20:35,034][INFO] fonduer.meta:162 - Initializing the storage schema
+[2020-02-24 20:22:17,528][INFO] fonduer.meta:55 - Logging was already initialized to use logs/2020-02-24_20-20-32.  To configure logging manually, call fonduer.init_logging before initialiting Meta.
+[2020-02-24 20:22:17,552][INFO] fonduer.meta:135 - Connecting user:None to localhost:5432/stg_temp_max_test
+[2020-02-24 20:22:17,553][INFO] fonduer.meta:162 - Initializing the storage schema
+[2020-02-24 20:25:47,312][INFO] fonduer.utils.udf:68 - Running UDF...

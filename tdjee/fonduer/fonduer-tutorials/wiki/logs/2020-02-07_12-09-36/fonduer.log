@@ -1,0 +1,45 @@
+[2020-02-07 12:09:36,115][INFO] fonduer.meta:51 - Setting logging directory to: logs/2020-02-07_12-09-36
+[2020-02-07 12:09:36,184][INFO] fonduer.meta:135 - Connecting user:None to localhost:5432/pob_presidents
+[2020-02-07 12:09:37,820][INFO] fonduer.meta:162 - Initializing the storage schema
+[2020-02-07 12:09:45,918][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:13:31,825][INFO] fonduer.candidates.mentions:489 - Clearing table: presidentname
+[2020-02-07 12:13:31,850][INFO] fonduer.candidates.mentions:489 - Clearing table: placeofbirth
+[2020-02-07 12:13:31,853][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:14:22,530][INFO] fonduer.candidates.candidates:145 - Clearing table presidentname_placeofbirth (split 0)
+[2020-02-07 12:14:22,547][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:14:24,938][INFO] fonduer.candidates.candidates:145 - Clearing table presidentname_placeofbirth (split 1)
+[2020-02-07 12:14:24,941][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:14:25,843][INFO] fonduer.candidates.candidates:145 - Clearing table presidentname_placeofbirth (split 2)
+[2020-02-07 12:14:25,848][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:14:38,275][INFO] fonduer.features.featurizer:271 - Clearing Features (split 0)
+[2020-02-07 12:14:38,285][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:15:00,529][INFO] fonduer.features.featurizer:271 - Clearing Features (split 1)
+[2020-02-07 12:15:00,534][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:15:11,618][INFO] fonduer.features.featurizer:271 - Clearing Features (split 2)
+[2020-02-07 12:15:11,623][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:15:32,448][INFO] fonduer.supervision.labeler:323 - Clearing Labels (split 0)
+[2020-02-07 12:15:32,456][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:16:15,161][INFO] fonduer.supervision.labeler:323 - Clearing Labels (split 1)
+[2020-02-07 12:16:15,168][INFO] fonduer.utils.udf:68 - Running UDF...
+[2020-02-07 12:16:22,665][INFO] fonduer.learning.classifier:98 - Loading default parameters for Logistic Regression
+[2020-02-07 12:16:23,271][INFO] fonduer.learning.classifier:222 - Settings: {'log_dir': 'logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression', 'n_epochs': 30, 'lr': 0.001, 'batch_size': 256, 'shuffle': True, 'seed': 1234, 'host_device': 'CPU', 'bias': False, 'input_dim': 31905}
+[2020-02-07 12:16:23,274][INFO] fonduer.learning.classifier:240 - [LogisticRegression] Training model
+[2020-02-07 12:16:23,275][INFO] fonduer.learning.classifier:242 - [LogisticRegression] n_train=1561 #epochs=30 batch size=256
+[2020-02-07 12:16:49,932][INFO] fonduer.learning.classifier:296 - [LogisticRegression] Epoch 5 (26.66s)	Average loss=0.196370
+[2020-02-07 12:16:49,934][INFO] fonduer.learning.classifier:523 - [LogisticRegression] Model saved as checkpoint_epoch_5.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:17:16,714][INFO] fonduer.learning.classifier:296 - [LogisticRegression] Epoch 10 (53.44s)	Average loss=0.120050
+[2020-02-07 12:17:16,721][INFO] fonduer.learning.classifier:523 - [LogisticRegression] Model saved as checkpoint_epoch_10.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:17:42,858][INFO] fonduer.learning.classifier:296 - [LogisticRegression] Epoch 15 (79.58s)	Average loss=0.089085
+[2020-02-07 12:17:42,860][INFO] fonduer.learning.classifier:523 - [LogisticRegression] Model saved as checkpoint_epoch_15.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:18:08,855][INFO] fonduer.learning.classifier:296 - [LogisticRegression] Epoch 20 (105.58s)	Average loss=0.081831
+[2020-02-07 12:18:08,863][INFO] fonduer.learning.classifier:523 - [LogisticRegression] Model saved as checkpoint_epoch_20.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:18:34,741][INFO] fonduer.learning.classifier:296 - [LogisticRegression] Epoch 25 (131.47s)	Average loss=0.064505
+[2020-02-07 12:18:34,743][INFO] fonduer.learning.classifier:523 - [LogisticRegression] Model saved as checkpoint_epoch_25.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:19:00,617][INFO] fonduer.learning.classifier:296 - [LogisticRegression] Epoch 30 (157.34s)	Average loss=0.059703
+[2020-02-07 12:19:00,618][INFO] fonduer.learning.classifier:523 - [LogisticRegression] Model saved as checkpoint_epoch_30.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:19:00,619][INFO] fonduer.learning.classifier:324 - Saving final model as best checkpoint logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression/checkpoint_epoch_30.pt.
+[2020-02-07 12:19:00,621][INFO] fonduer.learning.classifier:334 - [LogisticRegression] Training done (157.35s)
+[2020-02-07 12:19:00,622][INFO] fonduer.learning.classifier:337 - Loading best checkpoint
+[2020-02-07 12:19:00,626][INFO] fonduer.learning.classifier:553 - [LogisticRegression] Model loaded as best_model.pt in logs/2020-02-07_12-09-36/2020-02-07_12-16-22_LogisticRegression
+[2020-02-07 12:19:33,553][INFO] fonduer.learning.classifier:410 - Using positive label class 2 with threshold 0.6
+[2020-02-07 12:19:47,739][INFO] fonduer.learning.classifier:410 - Using positive label class 2 with threshold 0.6

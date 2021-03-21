@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Chinese_models_for_SpaCy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fonduer-mlflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fonduer-tutorials" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fonduer-tutorials_back" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lctes-p27" vcs="Git" />
+  </component>
+</project>

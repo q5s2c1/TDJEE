@@ -1,0 +1,14 @@
+ {
+     "name": "core_web_sm",
+     "version": "0.1.0",
+     "license": "CC BY-SA 3.0",
+     "author": "Xiaoquan Kong",
+     "url": "https://xiaoquankong.ai",
+     "sources": [
+         "OntoNotes 5",
+         "Common Crawl",
+         "Universal Dependencies"
+     ],
+     "email": "u1mail2me@gmail.com",
+     "description": "Chinese multi-task CNN trained on OntoNotes, with GloVe vectors trained on Common Crawl. Assigns word vectors, context-specific token vectors, POS tags, dependency parse and named entities."
+ }

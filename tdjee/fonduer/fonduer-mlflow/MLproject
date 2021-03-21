@@ -1,0 +1,8 @@
+
+name: wiki
+
+entry_points:
+  main:
+    paramters:
+      conn_string: path
+    command: "python train.py"
